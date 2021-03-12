@@ -10,25 +10,25 @@ body { font-family: Georgia; color: #444; }
 
 /* //-- header, body, footer -- */
 #hd { margin: 0.5em 0 0.5em 0; padding-bottom: 0.25em; border-bottom: 1px solid #ccc }
-#hd h2 { text-transform: uppercase; letter-spacing: 2px; }
+#hd h2 { text-transform: uppercase; letter-spacing: 2px; color: #990003}
 #bd, #ft { margin-bottom: 0.25em; }
 
 /* //-- footer -- */
-#ft { padding: 1em 0 0.5em 0; font-size: 92%; border-top: 1px solid #ccc; text-align: center; }
+#ft { padding: 1em 0 0.5em 0; font-size: 100%; border-top: 1px solid #ccc; text-align: center; }
 #ft p { margin-bottom: 0; text-align: center;   }
 
 /* //-- core typography and style -- */
-#hd h1 { font-size: 28px; text-transform: uppercase; letter-spacing: 2px; }
-h2 { font-size: 132% }
-h3, h4 { font-size: 116%; }
-h1, h2, h3, h4 { color: #333; }
-p { font-size: 116%; line-height: 20px; padding-right: 0.5em; }
+#hd h1 { font-size: 28px; text-transform: uppercase; letter-spacing: 2px; color: #990003}
+h2 { font-size: 140%; color: #990003; padding-left: 0.5em;}
+h3, h4 { font-size: 124%; color: #990003; padding-left: 0.5em;}
+h1, h3, h4 { color: #333; }
+p { font-size: 132%; line-height: 20px; padding-right: 0.5em; padding-left: 0.5em; text-align: justify;}
 a { color: #990003 }
 a:hover { text-decoration: none; }
-strong { font-weight: bold; }
-li {font-size: 121%; line-height: 24px; border-bottom: 1px solid #ccc; }
+strong { font-weight: bold; color: #990003}
+li {font-size: 129%; line-height: 24px; border-bottom: 1px solid #ccc; padding-left: 0.5em;}
 li {border-bottom: 1px solid #ccc; }
-p.enlarge { font-size: 126%; padding-right: 0.5em; line-height: 24px; }
+p.enlarge { font-size: 134%; padding-right: 0.5em; line-height: 24px; text-align: justify;}
 p.enlarge span { color: #000 }
 .contact-info { margin-top: 5px; float: left; }
 .first h2 { font-style: italic; }
@@ -38,13 +38,13 @@ p.enlarge span { color: #000 }
 
 .job { position: relative; margin-bottom: 0.25em; padding-bottom: 0.25em; border-bottom: 0.25px solid #ccc; }
 .job h4 { position: absolute; top: 0.25em; right: 0 }
-.job p { margin: 0.25em 0 0.25em 0; }
+.job p { margin: 0.5em 0 0.5em 0; }
 
 .last { border: none; }
 /* .skills-list {  } */
 .skills-list ul { margin: 0; }
 .skills-list li { margin: 1px 0; padding: 1px 0; }
-.skills-list li span { font-size: 152%; display: block; margin-bottom: -2px; padding: 0 }
+.skills-list li span { font-size: 160%; display: block; margin-bottom: -2px; padding: 0 }
 .talent { width: 32%; float: left }
 .talent h2 { margin-bottom: 0px; }
 
@@ -53,9 +53,10 @@ p.enlarge span { color: #000 }
 
 .yui-gc{display: flex;}
 .yui-gc div.first{width:12%;}
-.yui-gc div.yui-u1{width:65%;}
+.yui-gc div.yui-u1{width:63%;}
 /* .yui-gc div.yui-u2{width:45%;} */
 .yui-gf div.first{width:10%;}
-.yui-gf .yui-u{width:88%;}
+.yui-gf .yui-u{width:87%;}
+.yui-u{padding: 0.5em;}
 
 img{border-radius: 100%; margin:center;}
